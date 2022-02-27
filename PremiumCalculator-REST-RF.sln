@@ -6,15 +6,16 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1929A4CA-A0B5-434A-903E-BBD5635458C0}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PremiumCalculator.MVC", "premiumCalculatorMVC\PremiumCalculator.MVC.csproj", "{F0DB98C5-600A-40CD-B5A5-EED4EC0566C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PremiumCalculator.API", "premiumCalculatorWebAPI\PremiumCalculator.API.csproj", "{2F2006FF-3905-494B-8BB3-5BCEDFDF1CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Domain", "PremiumCalculator.Domain\PremiumCalculator.Domain.csproj", "{C6B20C4C-5BE6-4005-A648-92DF45D5ADE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PremiumCalculator.Domain", "PremiumCalculator.Domain\PremiumCalculator.Domain.csproj", "{C6B20C4C-5BE6-4005-A648-92DF45D5ADE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Infraestructure", "PremiumCalculator.Infraestructure\PremiumCalculator.Infraestructure.csproj", "{00CD8C19-183D-4764-9415-CEF497F4C940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PremiumCalculator.Infraestructure", "PremiumCalculator.Infraestructure\PremiumCalculator.Infraestructure.csproj", "{00CD8C19-183D-4764-9415-CEF497F4C940}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PremiumCalculator", "PremiumCalculator", "{3018454F-7389-4BBC-ACE8-902321197C94}"
 EndProject
