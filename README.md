@@ -4,11 +4,11 @@ Update of the application Premium Calculator to consider practices: SOLID Princi
 
 SOLID design principles were first introduced by Computer Scientist Robert C. Martin in the year 2000.
 
-Domain-Driven Design
+***Domain-Driven Design***
 DDD is an approach to business-focused software development. "As systems grow too complex to know completely at the level of
 individual objects, we need techniques for manipulating and comprehending large models."
 
-Layers in DDD
+***Layers in DDD***
 The architecture of DDD projects usually includes three main parts: Domain, Infrastructure, Application. Depending on the size of each project, we can arrange these parts in a project or separate them into different layers.
 
 ***Domain***: 
@@ -31,21 +31,38 @@ A place to define logic concepts, principles, patterns, and behaviors of data, i
 </li>
 </ul>
 
-Application
-Mobile application
-Web MVC/API application
-Desktop application
-IoT
-Others services
+***Application***
+<ul>
+<li>Mobile application
+</li>
+<li>Web MVC/API application
+</li>
+<li>Desktop application
+</li>
+<li>IoT
+</li>
+<li>Others services
+</li>
+</ul>
 
-Infrastructure
-Repositories: Repositories will be implemented here, including GenericRepository and <Entity> Repository. 
-Data access: Contexts and the API connections link to databases. 
-SQL: ADO.NET, EntityFramework, Dapper, and ORM, etc.
-In-Memory stores.
-Caching, NoSQL, and so on.
-Data seeding
-Others:
+***Infrastructure***
+
+<ul>
+<li>Repositories: Repositories will be implemented here, including GenericRepository and <Entity> Repository. 
+</li>
+<li>Data access: Contexts and the API connections link to databases. 
+</li>
+<li>SQL: ADO.NET, EntityFramework, Dapper, and ORM, etc.
+</li>
+<li>In-Memory stores.
+</li>
+<li>Caching, NoSQL, and so on.
+</li>
+<li>Data seeding
+</li>
+<li>Others:
 Logging.
 Cryptography.
 Etc.
+</li>
+</ul>
