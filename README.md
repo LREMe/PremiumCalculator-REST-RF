@@ -66,3 +66,57 @@ Cryptography.
 Etc.
 </li>
 </ul>
+
+
+***Dependency Injection***
+Dependency injection is a programming technique that makes a class independent of its dependencies. It achieves that by decoupling the usage of an object from its creation.
+<br>
+This helps you to follow SOLID’s dependency inversion and single responsibility principles.
+<br>
+C# implements mechanism to implement Depedency injection. 
+
+
+
+<br>
+***Some important concepts***
+<br>
+<b>Interfaces vs Abstract clases</b>
+<ul>
+<li>
+Intefaces: There are only signature of the methods, wich implies that a method does not have a body. 
+</li>
+<li>
+Abstract clases: Abstract classes look a lot like interfaces, but they have something more: You can define a behavior for them.
+</li>
+</ul>
+
+
+***References***
+<ul>
+<li>Domain-Driven Design Tackling Complexity in the Heart of Software by By Eric Evans  - Addison Wesley  
+</li>
+<li>
+Architectural principles 
+https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion
+</li>
+<li>Dependency injection in ASP.NET Core https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0
+</li>
+<li>Domain-Driven Design in ASP.NET Core applications https://enlabsoftware.com/development/domain-driven-design-in-asp-net-core-applications.html?amp=1
+</li>
+<li>
+How to apply SOLID principles with practical examples in C#
+https://enlabsoftware.com/development/how-to-apply-solid-principles-with-practical-examples-in-c-sharp.html?amp=1
+</li>
+<li>
+Dependency injection in .NET 
+https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
+</li>
+<li>
+Design Patterns Explained – Dependency Injection with Code Examples https://stackify.com/dependency-injection/
+</li>
+
+<li>
+Unit of Work pattern
+https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/#:~:text=The%20Unit%20of%20Work%20pattern,or%20fail%20as%20one%20unit.
+</li>
+</ul>
